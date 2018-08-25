@@ -33,19 +33,19 @@
 
 static uchar shiftcode[256] =
 {
-  [0x1D] CTL,
-  [0x2A] SHIFT,
-  [0x36] SHIFT,
-  [0x38] ALT,
-  [0x9D] CTL,
-  [0xB8] ALT
+    [0x1D] CTL,
+    [0x2A] SHIFT,
+    [0x36] SHIFT,
+    [0x38] ALT,
+    [0x9D] CTL,
+    [0xB8] ALT
 };
 
 static uchar togglecode[256] =
 {
-  [0x3A] CAPSLOCK,
-  [0x45] NUMLOCK,
-  [0x46] SCROLLLOCK
+    [0x3A] CAPSLOCK,
+    [0x45] NUMLOCK,
+    [0x46] SCROLLLOCK
 };
 
 static uchar normalmap[256] =
@@ -109,4 +109,3 @@ static uchar ctlmap[256] =
   [0x97] KEY_HOME,  [0xCF] KEY_END,
   [0xD2] KEY_INS,   [0xD3] KEY_DEL
 };
-
